@@ -98,7 +98,7 @@
 							<div class="form-group product-quantity d-flex align-items-center">
 								<label for="quantity-@product.PizzaId">Qty:</label>
 								<input type="number" class="form-control" id="quantity-@product.PizzaId" value="1" min="1" max="10" style="width: 60px; margin-left:5px;">
-								<button class="btn btn-primary add-to-cart-button ml-auto" onclick="addToCart(@product.PizzaId)" data-pizza-id="@product.PizzaId">Add to Cart</button>
+								<button class="btn btn-primary add-to-cart-button ml-auto" id="@product.PizzaId" onclick="addToCart(@product.PizzaId)" data-pizza-id="@product.PizzaId">Add to Cart</button>
 							</div>
 
 						</div>
